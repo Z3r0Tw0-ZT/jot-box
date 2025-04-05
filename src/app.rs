@@ -16,6 +16,8 @@ use std::path::Path;
 #[allow(unused_imports)]
 use crate::{controllers, models::_entities::users, tasks, workers::downloader::DownloadWorker};
 
+// TODO: Dyanmize the code
+
 pub struct App;
 #[async_trait]
 impl Hooks for App {
